@@ -6,5 +6,10 @@ namespace _10percentwinformsdesigner
         {
             InitializeComponent();
         }
+
+        private void ShowMessageButton_Click(object sender, EventArgs e)
+        {
+            MessageLabel.Text = MessageTextBox.Text;
+        }
     }
 }
